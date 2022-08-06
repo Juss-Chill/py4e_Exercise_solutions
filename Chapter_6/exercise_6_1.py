@@ -21,5 +21,5 @@ index = len_str-1
 print('\nPrinting Backwards...')
 while index >= 0:
     print(in_str[index])
-    index = index - 1
+    index = index - 1                #Initially I forgot this counter and it went for an infinite loop :-D
 
