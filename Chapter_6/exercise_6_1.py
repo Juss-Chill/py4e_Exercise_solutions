@@ -11,5 +11,15 @@ Output =
 'e'
 'H'
 
-Checkout main after commiting py4e
 '''
+
+in_str = input('Enter a string: ')
+len_str = len(in_str)          # compute the length of the input string
+
+#print the each character from the backward
+index = len_str-1
+print('\nPrinting Backwards...')
+while index >= 0:
+    print(in_str[index])
+    index = index - 1
+
